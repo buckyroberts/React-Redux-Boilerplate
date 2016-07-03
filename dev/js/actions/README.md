@@ -48,3 +48,8 @@ export default function () {
     description: "Samantha is a good woman with a heart of gold."
 }
 ```
+
+## What happens next?
+
+All actions are automatically sent to **all** reducers. It is the reducers job to determine how to handle that action
+(can also just ignore it).
