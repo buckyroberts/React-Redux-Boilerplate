@@ -1,12 +1,15 @@
-import React from 'react'
-import UserList from '../containers/user-list'
+import React from 'react';
+import UserList from '../containers/user-list';
+import UserDetails from '../containers/user-detail';
 require('../../scss/style.scss');
 
 const App = () => (
     <div>
         <h2>User list</h2>
         <UserList />
+        <h2>User Details</h2>
+        <UserDetails />
     </div>
 );
 
-export default App
+export default App;
