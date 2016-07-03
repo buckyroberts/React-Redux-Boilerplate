@@ -1,8 +1,8 @@
+![](http://i.imgur.com/8EWxANj.png)
+
 # React/Sass/Redux Boilerplate
 
-Boilerplate for a React / Redux build.
-
-![](http://i.imgur.com/8EWxANj.png)
+Boilerplate and guide for a React/Sass/Redux build.
 
 ## Getting Started
 
