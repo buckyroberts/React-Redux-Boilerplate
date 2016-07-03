@@ -1,4 +1,4 @@
-![](http://i.imgur.com/8EWxANj.png)
+![](http://i.imgur.com/QDJL7AP.png)
 
 # React/Sass/Redux Boilerplate
 
