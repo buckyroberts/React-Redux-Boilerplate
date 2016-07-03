@@ -1,10 +1,10 @@
 import React from 'react'
-import UserList from './user-list'
+import UserList from '../containers/user-list'
 require('../../scss/style.scss');
 
 const App = () => (
     <div>
-        <h1>User list</h1>
+        <h2>User list</h2>
         <UserList />
     </div>
 );
