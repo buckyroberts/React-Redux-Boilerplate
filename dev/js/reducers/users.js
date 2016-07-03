@@ -10,14 +10,16 @@ export default function () {
             first: "Bucky",
             last: "Roberts",
             age: 71,
-            description: "Bucky is a React developer and YouTuber"
+            description: "Bucky is a React developer and YouTuber",
+            thumbnail: "http://i.imgur.com/7yUvePI.jpg"
         },
         {
             id: 2,
             first: "Joby",
             last: "Wasilenko",
             age: 27,
-            description: "Joby loves the Packers, cheese, and turtles."
+            description: "Joby loves the Packers, cheese, and turtles.",
+            thumbnail: "http://i.imgur.com/rVASmUK.jpg"
         }
     ]
 }
