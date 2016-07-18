@@ -7,7 +7,7 @@ import thunk from 'redux-thunk';
 import promise from 'redux-promise';
 import createLogger from 'redux-logger';
 import allReducers from './reducers';
-import App from './components/app';
+import App from './components/App';
 
 const logger = createLogger();
 const store = createStore(
