@@ -17,6 +17,7 @@
     "cross-env": "^1.0.8",
     "css-loader": "^0.23.1",
     "expect": "^1.20.1",
+    "html-webpack-plugin": "^2.22.0",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.8.0",
     "react": "^15.1.0",
