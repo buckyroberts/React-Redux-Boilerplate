@@ -8,12 +8,10 @@ import promise from 'redux-promise';
 import createLogger from 'redux-logger';
 import allReducers from './reducers';
 import App from './components/App';
-import { ConnectedRouter } from 'react-router-redux';
-import createHistory from 'history/createBrowserHistory';
+
 
 // @todo Move out to external router components
-import { Switch, Route } from 'react-router-dom';
-import HomePage from './screens/HomePage';
+import Router from './router';
 
 
 const logger = createLogger();
@@ -22,18 +20,10 @@ const store = createStore(
     applyMiddleware(thunk, promise, logger)
 );
 
-const history = createHistory();
-
-
 ReactDOM.render(
     <Provider store={store}>
-        <ConnectedRouter history={history}>
-	    	<Switch>
-		        <Route path="/" component={HomePage} />
-		        <Route path="hello" component={HomePage} />
-
-	      	</Switch>        
-        </ConnectedRouter>        
+            	<Router/>
+      
     </Provider>,
     document.getElementById('root')
 );
