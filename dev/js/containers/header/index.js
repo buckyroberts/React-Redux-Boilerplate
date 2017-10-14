@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Header extends Component {
 	render() {
 		return (
-	<div className="navbar navbar-default header-highlight" style={{'margin-bottom': 0}}>
+	<div className="navbar navbar-default header-highlight" style={{'marginBottom': 0}}>
 		<div className="navbar-header">
 			<a className="navbar-brand" href="index.html"><img src="assets/images/logo_light.png" alt=""/></a>
 

@@ -31,7 +31,7 @@ var styles = {
     width: '36px',
     height: '30px',
     left: '36px',
-    top: '36px'
+    top: '10px'
   },
   bmBurgerBars: {
     background: '#373a47'
@@ -68,7 +68,7 @@ ReactDOM.render(
 
 			<Menu styles={ styles } pageWrapId={ "pageWrap" } outerContainerId={ "outerContainer" }  width={ '20%' }>
 				<a id="home" className="menu-item" href="/">Home</a>
-				<a id="about" className="menu-item" href="/about">About</a>
+				<a id="about" className="menu-item" href="/#hello">About</a>
 				<a id="contact" className="menu-item" href="/contact">Contact</a>
 			</Menu>
 
