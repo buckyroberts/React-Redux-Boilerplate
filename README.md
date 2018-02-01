@@ -18,10 +18,11 @@ Run an initial webpack build
 
 Start the development server (changes will now update live in browser)
 ```
-> npm run start
+> npm start
 ```
 
 To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
+
 
 ## Links
 
@@ -31,3 +32,4 @@ To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 - [Twitter](https://twitter.com/bucky_roberts)
 - [Google+](https://plus.google.com/+BuckyRoberts)
 - [reddit](https://www.reddit.com/r/thenewboston/)
+
